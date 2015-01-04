@@ -1,0 +1,142 @@
+/**
+* CSS
+* 
+* @version 1.0
+* @author Vaska 
+* @author Gregory Cadar
+*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 18px;
+	line-height: 1.5em;
+	font-family: "Times New Roman", HelveticaNeue-Light, Helvetica, Arial, sans-serif;
+	letter-spacing: 1px;
+	background-color: #03FFF7;
+}
+
+body.section-1 { }
+body.section-2 { }
+body.section-3 { }
+
+a:link { text-decoration: none; color: #000000; }
+a:active { text-decoration: none; }
+a:visited { text-decoration: none; color: #000000; }
+a:hover { text-decoration: none; background: #ff7f50;}
+
+a img { border: none; }
+
+#menu {
+    width: 250 px;
+    overflow: hidden;
+    top: 0;
+    bottom: 0;
+	left: 0;
+    position: fixed;
+    padding: 10px 0 0 10px;
+    height: 100%;
+    
+}
+
+#menu ul {
+	list-style: none;
+	margin: 0 0 12px 0;
+	padding: 5px 0 0 0;
+}
+
+#menu ul li { 	
+	margin: 0;
+	padding: 0 0 0 2px;
+	color: #000000;
+}
+
+#menu ul li.section-title { 	
+	margin: 10px 0 10px 0;
+	padding: 2px;
+	color: #000000;
+	/*background: #ff66ff;*/
+	border-bottom: 8px double yellow;
+}
+
+#content {
+    height: 100%;
+    margin: 10px 0 0 210px;
+    padding: 0 0 0 10px;
+    top: 0;
+}
+
+.container {
+    padding: 5px 5px 25px 5px;
+}
+
+#content p { width: 1200px; margin-bottom: 9px; }
+
+#content .container p a:link, #content .container p a:hover, #content .container p a:visited {
+	color: #ff3300;
+	}
+
+p {
+    margin: 0 0 9px 0;
+}
+
+h1 { font-size: 32px; }
+h2 { font-size: 24px; }
+h3 { font-size: 16px; }
+h4 { font-size: 12px; }
+
+.copyright {
+	font-size: 8pt; 
+	color: #000;
+	text-decoration: none;
+	}
+
+#img-container	{ margin: 0; padding: 0; }
+#img-container p	{ width: 400px; margin: 0; padding: 0 0 12px 0; }
+
+#once { clear: left; }
+
+.caption {
+	margin-bottom: 30px;
+	position: fixed;
+	width: 900px;
+}
+
+.caption a {
+	color: #ff7f50;
+}
+
+.images {
+	margin-top: 88px;
+	width: 3000px;
+}
+
+.whiteborder {
+	border: 80px solid white;
+	vertical-align:top;
+}
+
+.whiteborderbot {
+	border: 80px solid white;
+	vertical-align:bottom;
+}
+
+.smborder {
+	border: 20px solid white;
+	vertical-align:top;
+}
+
+.smbordersp {
+	border: 20px solid white;
+	vertical-align:top;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.noborder {
+	vertical-align:top;
+	margin: 0 20px 20px 0;
+}
+

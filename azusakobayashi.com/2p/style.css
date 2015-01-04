@@ -1,0 +1,142 @@
+body, html {
+	margin:0;
+	padding: 0;
+	overflow-x: hidden;
+	background-color: #B5FFD8;
+	color: #000;
+	letter-spacing: 1px;
+	-webkit-font-smoothing: antialiased;	
+}
+
+#maintext {
+
+
+}
+
+.container {
+	
+}
+
+.active {
+	display: block;
+
+}
+
+#title_main {
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: 5px;
+	text-shadow: 5px 5px 0px #FF0000;
+	padding: 15px;
+	height: 45px;
+	position: absolute;
+	top: 10px;
+	left: 0px;
+	background: #eee;
+
+}
+
+#title_main.fixed {
+	position: fixed;
+	top: 0px;
+
+}
+
+#title_main.fixedLo {
+	position: fixed;
+	top: 85px;
+
+}
+
+#title {
+	position: fixed;
+	top: 0;
+	left: 0;
+
+}
+
+#title_allpaths {
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: 5px;
+	text-shadow: 5px 5px 0px #FF0000;
+	padding: 15px;
+	height: 45px;
+	/*
+position: absolute;
+	top: 10px;
+	left: 0px;
+*/
+	background: #eee;
+	display: none;
+}
+
+#title_1A {
+
+
+}
+
+
+#title_1B {
+
+
+}
+
+#title_1A.fixed, #title_1B.fixed {
+	position: fixed;
+	top: 85px;
+
+}
+
+
+.body_text {
+	font-family: "Times New Roman", Georgia, serif;
+	font-size: 18px;
+	padding: 100px 15px 15px 15px;
+
+}
+
+.body_text a:link {
+	letter-spacing: 12px;
+	text-decoration: none;
+	color: #fff;
+
+}
+
+.path_1A, .path_1B {
+	margin: 0;
+	padding: 0;
+
+}
+
+
+.path_1A_text {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	letter-spacing: 1px;
+	display: none;
+	background-color: black;
+	color: white;
+	width: 100%;
+	margin: 0;
+	padding: 100px 15px 15px 15px;
+}
+
+.path_1B_text {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	letter-spacing: 1px;
+	display: none;
+	background-color: magenta;
+	color: black;
+	width: 100%;
+	margin: 0;
+	padding: 100px 15px 15px 15px;
+
+}
+
+p {
+	margin: 0;
+	padding: 0;
+
+}

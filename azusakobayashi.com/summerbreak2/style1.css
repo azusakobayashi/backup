@@ -1,0 +1,126 @@
+body, html {
+	overflow:hidden;
+	width: 100%;
+	height: 100%;
+	margin:0;
+	padding:0;
+	font-family: "Arial", sans-serif;
+	color: black;
+	font-size:25px;
+	line-height: 35px;
+  letter-spacing: 1px;
+	background-color: white;
+}
+
+div {
+    border: 15px solid transparent;
+    width: 250px;
+    padding: 10px 20px;
+}
+
+#round {
+    -webkit-border-image: url(face_s.png) 30 30 round; /* Safari */
+    -o-border-image: url(face_s.png) 30 30 round; /* Opera */
+    border-image: url(face_s.png) 30 30 round;
+}
+
+#stretch {
+    -webkit-border-image: url(border.png) 30 30 stretch; /* Safari */
+    -o-border-image: url(border.jpg) 30 30 stretch; /* Opera */
+    border-image: url(border.jpg) 30 30 stretch;
+}
+
+body {
+  background-image: url(images/bg-9.jpg);
+  background-position: left 40px;
+  background-attachment: fixed;
+  background-repeat: repeat;
+
+}
+
+#body {
+  background-color: #00FFFF;
+  height: 90%;
+  width: 85%;
+  min-width: 500px;
+  padding-left: 225px;
+  padding-top: 100px;
+}
+
+#feelslike {
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  z-index: 300;
+  top: 10px;
+  left: 10px;
+  font-family: "Arial", sans-serif;
+  color: black;
+  font-size:60px;
+  line-height: 60px;
+  letter-spacing: 5px;
+  width: 85%;
+}
+
+#pagewrap {
+	width: 800px;
+	max-width: 98%;
+	margin: 0 auto;
+	position: relative;
+/*	background: url(images/side-bg.png) repeat-y 5px 104px;
+*/	min-height: 100%;
+
+}
+
+p {
+
+
+
+}
+
+
+@-webkit-keyframes oscillation1 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -webkit-transform-origin: 208px 23px;
+  }
+  33% {
+    -webkit-transform: rotate(15deg);
+    -webkit-transform-origin: 208px 23px;
+  }
+  100% {
+    -webkit-transform: rotate(-20deg);
+    -webkit-transform-origin: 208px 23px;
+  }
+}
+
+
+@-webkit-keyframes oscillation2 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -webkit-transform-origin: 208px 232px;
+  }
+  33% {
+    -webkit-transform: rotate(5deg);
+    -webkit-transform-origin: 208px 232px;
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+    -webkit-transform-origin: 208px 232px;
+  }
+}
+
+#sb_logo {
+	opacity: 0.9;
+	z-index: 300;
+	position: fixed;
+	bottom:0;
+	right:0;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	padding:16px;
+	cursor: pointer;
+
+
+}

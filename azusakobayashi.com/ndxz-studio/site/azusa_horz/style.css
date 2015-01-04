@@ -1,0 +1,88 @@
+/**
+* CSS
+* 
+* @version 1.0
+* @author Vaska 
+* @author Gregory Cadar
+*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 10px;
+	font-family: Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body.section-1 { }
+body.section-2 { }
+body.section-3 { }
+
+a:link { text-decoration: none; }
+a:active { text-decoration: none; }
+a:visited { text-decoration: none; color: #666; }
+a:hover { text-decoration: none; color: #ff3300; background: #fff20d;}
+
+a img { border: none; }
+
+#menu {
+	height: 120px;
+    width: 1000px;
+    overflow: auto;
+    margin: 10px 0 0 10px;
+    padding: 10px 0 0 10px;
+}
+
+#menu ul {
+	float: left;
+	list-style: none;
+	/* width: 120px; */
+	margin: 0 10px 0 0;
+	padding: 0;
+}
+
+#menu ul li.section-title { 	
+	display: inline;
+	margin: 0 0 10px 0;
+	width: 200px;
+	padding: 2px;
+	color: #000000;
+	background: #ff66ff;
+}
+
+#content {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 5px 5px 10px 5px;
+}
+
+#content p { width: 700px; margin-bottom: 9px; }
+
+#content .container p a:link, #content .container p a:hover, #content .container p a:visited {
+	color: #ff3300;
+	}
+
+p {
+    margin: 0 0 9px 0;
+}
+
+h1 { font-size: 32px; }
+h2 { font-size: 24px; }
+h3 { font-size: 16px; }
+h4 { font-size: 12px; }
+
+.copyright {
+	font-size: 8pt; 
+	color: #000;
+	text-decoration: none;
+	}
+
+#img-container	{ margin: 0; padding: 0; }
+#img-container p	{ width: 400px; margin: 0; padding: 0 0 12px 0; }
+
+#once { clear: left; }
