@@ -1,0 +1,755 @@
+/*! HTML5 Boilerplate v5.2.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, html {
+    font-size: 0;
+    width: 100%;
+    height: 100%;
+    white-space: nowrap;
+    -webkit-font-smoothing: antialiased;
+    background-color: #ef4123;
+    background-image: url(../img/yir_full.png);
+    background-repeat: no-repeat;
+    background-size:auto 100%;
+}
+
+
+.noscroll {
+  overflow: hidden;
+}
+
+.closebtn {
+  top:0;
+  right:0;
+  position: absolute;
+  font-size: 40px;
+  line-height: 40px;
+  width:40px;
+  height: 40px;
+  text-align: center; 
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 10000000;
+}
+
+.trigger {
+  height: 100%;
+  width: 1000px;
+ /* border-left: 10px solid blue;*/
+}
+
+#eighteen {
+  width: 2000px !important;
+}
+
+.nav {
+    position: fixed;
+    right: 30px;
+    left:30px;
+    text-align: center;
+    bottom: 30px;
+    font-size: 12px;
+    padding: 0;
+    z-index: 100000;
+    color: red;
+    font-size: 0;
+}
+
+.nav a:link {
+  color: red;
+  background-color:red;
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+  display: inline-block;
+  margin: 6px;
+}
+
+.nav a:hover {
+  background-color:white;
+}
+
+.activedot {
+  background-color: white !important;
+}
+
+.work {
+  opacity:0; 
+  display: none;
+  position: fixed;
+  z-index: 100;
+}
+
+.work-0 {
+  /*BBDO.com*/
+  bottom: 10%;
+  right: -5%;
+  width: 60%;
+}
+
+.work-1 {
+  /*XLAB*/
+  right: 10%;
+  bottom: 15%;
+  width: 60%;
+}
+
+.work-2 {
+  /*Priceline*/
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+
+.work-3 {
+  /*Bacardi rebrand*/
+  top: 10%;
+  left: 5%;
+  width: 30%;
+}
+
+.work-4 {
+  /*Grey Goose*/
+  top:0;
+  left:10%;
+  width: 25%;
+}
+
+.work-5 {
+  /*3M SXSW*/
+  top: 10%;
+  left: 5%;
+  width: 50%;
+}
+
+.work-6 {
+  /*Zazzies*/
+  bottom:0;
+  right: 5%;
+  width: 30%;
+}
+
+.work-7 {
+  /*Yacht*/
+  bottom: -5%; 
+  left: 3%;
+  width: 55%;
+}
+
+.work-8a {
+  /*GE Light Bulb*/
+  top: 0;
+  left: 12%;
+  width: 5%;
+}
+
+.work-8b {
+  /*GE Light Room*/
+  bottom: 10%;
+  left: -20%;
+  width: 80%;
+}
+
+.work-9 {
+  /*ESD*/
+  top: 5%;
+  left: 5%;
+  width: 30%;
+}
+
+.work-10 {
+  /*Shoemoji*/
+  top: 0;
+  right: 0;
+  width: 55%;
+}
+
+.work-11 {
+  /*hope.ly*/
+  top: 2%;
+  left: 2%;
+  width: 40%;
+}
+
+.work-12 {
+  /*Bacardi Apple Watch*/
+  top: 15%;
+  right: 7%;
+  width: 35%;
+}
+
+.work-13 {
+  /*SummerBreak 3*/
+  top: 55%;
+  right: 5%;
+  width: 45%;
+}
+
+.work-14 {
+  /*9/11 Memorial Museum*/
+  top: -10%;
+  left: -30%;
+}
+
+.work-15a {
+  /*Filip*/
+  bottom: 0;
+  right: 45%;
+  width: 45%;
+}
+
+.work-15b {
+  /*Amy*/
+  bottom: -13%;
+  right: 5%;
+  width: 26%;
+}
+
+.work-15c {
+  /*Martin*/
+  top: 5%;
+  right: 0;
+  width: 19%;
+}
+
+.work-16 {
+  /*Awards—all*/
+  top: 3%;
+  right: -2%;
+  width: 60%;
+}
+
+
+/* --- COPY --- */
+/* ------------ */
+
+.copy {
+  opacity:0; 
+  display: none;
+  position: fixed;
+  text-align: left;
+  vertical-align: middle;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 110px;
+  font-size: 9vw;
+  line-height: 120px;
+  line-height: 11vw;
+  color: white;
+  white-space: normal;
+  width: 65%;
+  z-index: 200;
+}
+
+.names {
+  padding-top: 55px;
+  opacity:0; 
+  display: none;
+  text-align: left;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 32px;
+  font-size: 2.75vw;
+  line-height: 38px;
+  line-height: 3.75vw;
+  color: white;
+  white-space: normal;
+  z-index: 200;
+}
+
+
+/* --- COPY POSITIONS --- */
+
+/* TOP LEFT */
+.copy-0, .copy-1, .copy-6, .copy-10, .copy-12, .copy-13, .copy-15, .copy-16, .copy-17 {
+  top: 5%;
+  left: 5%;
+}
+
+/* CENTER RIGHT */
+.copy-2, .copy-4, .copy-5, .copy-7, .copy-8, .copy-9, .copy-11 {
+  top: 30%;
+  left: 35%;
+}
+
+/* CENTER RIGHT (higher) */
+.copy-3, .copy-14 {
+  top: 15%;
+  left: 35%;
+}
+
+
+/* --- CAPTIONS --- */
+/* ---------------- */
+
+.caption {
+  opacity:0; 
+  display: none;
+  position: fixed;
+  text-align: left;
+  vertical-align: middle;
+  font-family: "Times New Roma", Times, sans-serif;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 1px;
+  color: white;
+  white-space: normal;
+  padding: 20px 40px;
+  border: 5px solid white;
+  text-align: center;
+  z-index: 100;
+}
+
+
+/* --- CAPTION POSITIONS --- */
+
+/* TOP LEFT */
+.caption-14, .caption-15 {
+  top: 5%;
+  left: 5%;
+}
+
+/* TOP RIGHT */
+.caption-7, .caption-8, .caption-13 {
+  top: 5%;
+  right: 5%;
+}
+
+/* BOTTOM LEFT */
+.caption-2, .caption-3, .caption-4, .caption-5, .caption-6, .caption-9, .caption-11, .caption-12 {
+  bottom: 5%;
+  left: 5%;
+}
+
+/* BOTTOM RIGHT */
+.caption-10 {
+  bottom: 5%;
+  right: 5%;
+}
+
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  /* offset-x | offset-y | blur-radius | color */
+/*  text-shadow: 0.2em 0.2em 3px rgba(239,65,35,1);*/
+  text-shadow: 0.2em 0.2em 3px rgba(0,0,0,0.75);
+}
+
+a:active {
+
+}
+
+.intro-overlay {
+  background-color: rgba(239,65,35,.9);
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  height: 100%;
+  width: 100%;
+  z-index: 10000000;
+  color: white;
+  font-size: 110px;
+  font-size: 9vw;
+  line-height: 120px;
+  line-height: 11vw;
+  white-space: normal;
+}
+
+.intro-text {
+  position: absolute;
+  top: 5% !important;
+  left: 5% !important;
+  color: white;
+  margin-right: 100px;
+}
+
+
+
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+ 
+.fade-in {
+  -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+ 
+  -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+ 
+  -webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  animation-duration:1s;
+}
+
+
+
+
+.mobile {
+  display: none;
+}
+
+
+@media only screen and (max-width : 768px) {
+  .mobile {
+    display: block;
+  }
+  .nav, .trigger {
+    display: none;
+    position: fixed;
+    top:-99999px;
+  }
+  .noscroll {
+    overflow: auto;
+  }
+  .caption, .copy, .work {
+    display: none;
+    position: fixed;
+    top:-99999px;
+  }
+
+
+}
+
+
+@media only screen and (max-height : 400px) {
+
+  .trigger {
+    width: 500px;
+  }
+
+}
+
+@media only screen and (max-height : 500px) {
+
+  .trigger {
+    width: 660px;
+  }
+
+}
+
+
+@media only screen and (max-height : 600px) {
+
+  .trigger {
+    width: 700px;
+  }
+
+}
+
+@media only screen and (max-height : 650px) {
+
+  .trigger {
+    width: 800px;
+  }
+
+}
+
+@media only screen and (max-height : 700px) {
+
+  .trigger {
+    width: 800px;
+  }
+
+}
+
+
+
+.mobile_xlab {
+  position: absolute;
+  top: 675 px;
+  left: 100px;
+  z-index: 300;
+}
+
+.mobile_shoemoji {
+  position: absolute;
+  top: 5110px;
+  left: 120px;
+  z-index: 300;
+
+}
+
+.mobile_hopely {
+  position: absolute;
+  top: 5475px;
+  left: 0;
+  z-index: 300;
+}
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers:
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}

@@ -1,0 +1,7 @@
+/home/azusak/azusakobayashi.com/bbdo_test
+/home/azusak/azusakobayashi.com/bbdo_test/css
+/home/azusak/azusakobayashi.com/bbdo_test/doc
+/home/azusak/azusakobayashi.com/bbdo_test/img
+/home/azusak/azusakobayashi.com/bbdo_test/js
+/home/azusak/azusakobayashi.com/bbdo_test/js/vendor
+/home/azusak/azusakobayashi.com/constellation/bg/imgs
